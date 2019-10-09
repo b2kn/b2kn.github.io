@@ -1,0 +1,25 @@
+.jumbotron {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 80%, rgb(0, 180, 180)), url('header.jpg') center center;
+    background-size: cover;
+    height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.text-muted {
+    padding-top: 2rem;
+}
+
+.row a {
+    color: black;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.row a:hover {
+    text-decoration: underline;
+}
