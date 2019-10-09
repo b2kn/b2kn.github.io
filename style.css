@@ -8,10 +8,11 @@
 
 .card-body {
     text-align: center;
+    vertical-align: middle;
 }
 
-.text-muted {
-    padding-top: 2rem;
+.card-img-top {
+    width: 100%;
 }
 
 .row a {
@@ -22,4 +23,8 @@
 
 .row a:hover {
     text-decoration: underline;
+}
+
+.text-muted {
+    padding-top: 2rem;
 }
