@@ -1,7 +1,6 @@
 <html>
 
 <head>
-    <meta http-equiv="refresh" content="20;URL='index2.html'">
 </head>
 
 <body bgcolor="black">
@@ -10,6 +9,13 @@
             Your browser does not support the video tag.
         </video>
     </center>
+
+    <script>
+        const video = document.querySelector('video');
+        video.onended = (event) => {
+            window.location.href = "index2.html";
+        };
+    </script>
 </body>
 
 </html>
