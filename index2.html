@@ -19,7 +19,7 @@
     </div>
 
     <div class="container">
-        <div class="row justify-content-center">
+        <div id="cardholder" class="row justify-content-center">
 
             <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                 <a href="https://chat.whatsapp.com/JsNgqihEdOUKmdqZTtEHRp" target="_blank">
@@ -85,6 +85,16 @@
             <p>WhatsApp tours curated by Gabriel Menotti</p>
         </div>
     </footer>
+
+    <script>
+        const cardholder = document.querySelector('#cardholder');
+        const cards = cardholder.children;
+        for (let i = cards.length; i > 0; i--) {
+            cardholder.appendChild(
+                cards[Math.floor(Math.random() * i)]
+            );
+        }
+    </script>
 
 </body>
 
